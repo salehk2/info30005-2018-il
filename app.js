@@ -10,5 +10,5 @@ app.use(router);
 var port = process.env.PORT || 3000;
 
 app.listen(port, function() {
-    console.log('Server started at port 3000');
+    console.log('Server started at port PORT or 3000');
 })
