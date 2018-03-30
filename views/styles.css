@@ -8,6 +8,7 @@ body {
 
 }
 
+/* The actual text, the heading, of the splash is a 'friendly' font that makes the user think of schools and education */
 h1 {
     color: white;
     font-family: 'Amatic SC', sans-serif;
@@ -20,6 +21,7 @@ h1 {
     margin-top: px;
 }
 
+/* A futuristic font choice that along with the words chosen indicates how revolutionary we are */
 #backgroundsubtitle {
     font-family: 'Economica', sans-serif;
     position: absolute;
