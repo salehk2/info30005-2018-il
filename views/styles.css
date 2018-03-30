@@ -1,9 +1,34 @@
+@import url("https://fonts.googleapis.com/css?family=Economica");
+@import url("https://fonts.googleapis.com/css?family=Amatic+SC");
+
 body {
-    background-color: powderblue;
+    background-image: url("https://images.unsplash.com/photo-1502790671504-542ad42d5189?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9&s=9cf6fa0967262e7b6e7d2d99617629d7")
+    , linear-gradient(black, deeppink);
+    background-size: cover;
+
 }
+
 h1 {
-    color: blue;
+    color: white;
+    font-family: 'Amatic SC', sans-serif;
+    font-weight: lighter;
+    position: absolute;
+    font-size: 50px;
+    top: 50%;
+    left: 50%;
+    margin-left: -570px; /* calculated as best looking */
+    margin-top: px;
 }
-p {
-    color: red;
+
+#backgroundsubtitle {
+    font-family: 'Economica', sans-serif;
+    position: absolute;
+    opacity: 0.7;
+    font-size: 150px;
+    font-color: lightgray;
+    letter-spacing: -6.75px; /* I wanted the font to be perfect */
+    top: 50%;
+    left: 50%;
+    margin-left: -550px; /* calculated as best looking */
+    margin-top: -150px;
 }

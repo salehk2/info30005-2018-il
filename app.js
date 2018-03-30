@@ -5,6 +5,8 @@ const ejs = require('ejs');
 app.set('views', './views');
 app.set('view engine', 'ejs');
 
+app.use(express.static('./views'));
+
 const router = require('./routes/routes');
 
 app.use(router);
