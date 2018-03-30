@@ -1,3 +1,3 @@
 module.exports.sayHello = function(req, res) {
-    res.send("Helloooo");
+    res.render('comingsoon.ejs');
 };
