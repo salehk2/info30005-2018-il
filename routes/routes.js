@@ -1,11 +1,9 @@
 const express = require('express');
 const router = express.Router();
 
+const controller = require("..controllers/comingsoonController")
 
 
-
-router.get('/', function(req, res) {
-    res.send('Hello')
-})
+router.get('/', controller.sayHello)
 
 module.exports = router;
