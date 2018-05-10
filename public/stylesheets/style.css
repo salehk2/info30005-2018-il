@@ -1,0 +1,67 @@
+body {
+  padding: 25px;
+  font: 14px "Roboto", Arial, sans-serif;
+}
+
+h1 {
+  font-family: "Calibri Light";
+  border: 1px dashed red;
+  /*padding-bottom: -25px;*/
+}
+p {
+  /*padding-top: -25px;*/
+  border: 1px dotted green;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.input label {
+  display: block;
+}
+
+form button {
+  float: left;
+  display: inline;
+  font: inherit;
+  /*margin: 10px 0;*/
+  border-radius: 0;
+  border: none;
+  box-shadow: 2px 2px 2px #ccc;
+  color: white;
+  background: #3498db;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #2980b9;
+}
+
+.title {
+  width: 500px;
+}
+.content {
+  padding-bottom: 50px;
+  width: 500px;
+  height: 100px;
+}
+.errors {
+  background: #e79892;
+  padding: 5px;
+  margin-bottom: 10px;
+  min-width: 200px;
+  display: inline-block;
+  border: 1px solid #e74c3c;
+}
+
+.errors ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.success {
+  background: #80cca0;
+  padding: 5px;
+}
