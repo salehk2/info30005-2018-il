@@ -10,7 +10,9 @@ var controller = require('../controller/controller');
 var url = 'mongodb://sak2:sak474@ds014648.mlab.com:14648/illuminate';
 
 /* GET home page. */
-// router.get('/', controller.index);
+router.get('/', function (req, res) {
+    res.send('<html><h1>works</h1></html>');
+});
 
 router.get('/forum', controller.viewAll);
 
