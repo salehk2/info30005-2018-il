@@ -1,0 +1,24 @@
+<section class="get">
+        {{# each items }}
+            <article class="item">
+                <h1>{{ this.title }}</h1>
+                <div><p>{{ this.content }}</p></div>
+                <div>Author: {{ this.author }}</div>
+                <!--<div>ID: {{ this._id }}</div>-->
+                <!--<div>Edit post: </div>-->
+                <form action="/forum/{{ this._id }}/edit" method="GET" target="_blank">
+                    <button>Edit</button>
+                </form>
+                <form action="/remove" method="POST">
+                    <button name="id" value={{ this._id }}>Delete</button>
+                </form>
+            </article>
+            <br>
+            <br>
+        {{/each}}
+    </div>
+</section>
+
+<section>
+    <a href="/submit"> Create new post </a>
+</section>

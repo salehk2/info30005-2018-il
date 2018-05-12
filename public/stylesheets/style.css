@@ -1,0 +1,110 @@
+body {
+    padding: 25px;
+    font: 14px "Roboto", Arial, sans-serif;
+    background-image: url(http://backgroundcheckall.com/wp-content/uploads/2017/12/instagram-background-12.jpg);
+
+}
+
+.all-posts {
+    padding-top: 75px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.nav {
+    width: 20%;
+    margin:0 auto;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 30px;
+    color: white;
+    border-bottom: pink solid;
+    border-width: 1px;
+
+}
+
+[class*="col-"]:hover {
+    border-bottom: 1px solid red;
+}
+
+h1 {
+  /*font-family: "Calibri Light";*/
+    font: 28px "Roboto", Arial, sans-serif;
+
+    color: white;
+    /*border-bottom: pink solid;*/
+  /*padding-bottom: -25px;*/
+    margin-bottom: 25px;
+}
+p {
+  /*padding-top: -25px;*/
+    color: white;
+  border: 1px solid pink;
+    /*margin-bottom: 25px;*/
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 25px;
+}
+
+.input label {
+  display: block;
+}
+
+form button {
+    float: left;
+    display: inline;
+    font: inherit;
+    /*margin: 10px 0;*/
+    /*border-radius: 0;*/
+    /*box-shadow: 2px 2px 2px #ccc;*/
+    /*color: white;*/
+    /*background: #3498db;*/
+    /*cursor: pointer;*/
+    /*border-bottom: pink solid;*/
+    /*border-width: 1px;*/
+
+}
+
+form button:hover {
+  background: pink;
+}
+
+/*.title {*/
+  /*width: 500px;*/
+/*}*/
+/*.content {*/
+  /*padding-bottom: 50px;*/
+  /*width: 500px;*/
+  /*height: 100px;*/
+/*}*/
+/*.errors {*/
+  /*background: #e79892;*/
+  /*padding: 5px;*/
+  /*margin-bottom: 10px;*/
+  /*min-width: 200px;*/
+  /*display: inline-block;*/
+  /*border: 1px solid #e74c3c;*/
+/*}*/
+
+/*.errors ul {*/
+  /*margin: 0;*/
+  /*padding: 0;*/
+  /*list-style: none;*/
+/*}*/
+
+/*.success {*/
+  /*background: #80cca0;*/
+  /*padding: 5px;*/
+/*}*/
