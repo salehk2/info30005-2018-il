@@ -1,0 +1,31 @@
+<h1> All Posts</h1>
+<a href="/forum">
+    <img src="http://www.iconarchive.com/download/i89250/icons8/ios7/Very-Basic-Reload.ico" style="width:12px;height:12px;">
+</a>
+<br><br>
+<section class="get">
+    <div>
+        {{# each items }}
+            <article class="item">
+                <a href="/forum/{{ this._id }}">
+                    <div>
+                        <h1>{{ this.title }}</h1>
+                    </div>
+                </a>
+                <!--<div><p>{{ this.content }}</p></div>-->
+                <div>Author: {{ this.author }}</div>
+                <!--<div>ID: {{ this._id }}</div>-->
+                <!--<div>Edit post: </div>-->
+                <!--<form action="/remove" method="POST">-->
+                    <!--<button name="id" value={{ this._id }}>Delete Post</button>-->
+                <!--</form>-->
+            </article>
+            <br>
+            <br>
+        {{/each}}
+    </div>
+</section>
+
+<section>
+    <a href="/submit"> Create new post </a>
+</section>
