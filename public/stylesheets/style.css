@@ -5,6 +5,10 @@ body {
 
 }
 
+.all-posts {
+    padding-top: 75px;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -37,18 +41,21 @@ h1 {
     font: 28px "Roboto", Arial, sans-serif;
 
     color: white;
-    border-bottom: pink solid;
+    /*border-bottom: pink solid;*/
   /*padding-bottom: -25px;*/
+    margin-bottom: 25px;
 }
 p {
   /*padding-top: -25px;*/
     color: white;
   border: 1px solid pink;
+    /*margin-bottom: 25px;*/
 }
 
 a {
     color: white;
     text-decoration: none;
+    margin-bottom: 25px;
 }
 
 .input label {
@@ -74,30 +81,30 @@ form button:hover {
   background: pink;
 }
 
-.title {
-  width: 500px;
-}
-.content {
-  padding-bottom: 50px;
-  width: 500px;
-  height: 100px;
-}
-.errors {
-  background: #e79892;
-  padding: 5px;
-  margin-bottom: 10px;
-  min-width: 200px;
-  display: inline-block;
-  border: 1px solid #e74c3c;
-}
+/*.title {*/
+  /*width: 500px;*/
+/*}*/
+/*.content {*/
+  /*padding-bottom: 50px;*/
+  /*width: 500px;*/
+  /*height: 100px;*/
+/*}*/
+/*.errors {*/
+  /*background: #e79892;*/
+  /*padding: 5px;*/
+  /*margin-bottom: 10px;*/
+  /*min-width: 200px;*/
+  /*display: inline-block;*/
+  /*border: 1px solid #e74c3c;*/
+/*}*/
 
-.errors ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
+/*.errors ul {*/
+  /*margin: 0;*/
+  /*padding: 0;*/
+  /*list-style: none;*/
+/*}*/
 
-.success {
-  background: #80cca0;
-  padding: 5px;
-}
+/*.success {*/
+  /*background: #80cca0;*/
+  /*padding: 5px;*/
+/*}*/

@@ -6,7 +6,7 @@
                 <div>Author: {{ this.author }}</div>
                 <!--<div>ID: {{ this._id }}</div>-->
                 <!--<div>Edit post: </div>-->
-                <form action="/forum/{{ this._id }}/edit" method="GET">
+                <form action="/forum/{{ this._id }}/edit" method="GET" target="_blank">
                     <button>Edit</button>
                 </form>
                 <form action="/remove" method="POST">

@@ -24,6 +24,7 @@ router.get('/forum/:id', controller.viewPost);
 
 router.get('/forum/:id/edit?', controller.editor);
 
-router.post('/forum/:id/edit?', controller.edit);
+// router.post('/forum/:id/edit?', controller.edit);
+router.post('/update', controller.edit);
 
 module.exports = router;

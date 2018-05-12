@@ -38,14 +38,6 @@ var createPost = function(req,res){
         "content":req.body.content,
         "author":req.body.author
     });
-    // console.log(req.body.title);console.log(req.body.title);
-    // post.save(function(err,newPost){
-    //     if(!err){
-    //         res.send(newPost);
-    //     }else{
-    //         res.sendStatus(400);
-    //     }
-    // });
     mongo.connect(url, function(err, db) {
         assert.equal(null, err);
         db.collection('user-data').insertOne(post, function(err, result) {
@@ -54,6 +46,8 @@ var createPost = function(req,res){
             db.close();
         });
     });
+    console.log('reached here');
+    res.redirect('/forum');
 };
 
 var removePost = function(req, res, next) {
@@ -107,6 +101,10 @@ var edit = function(req, res, next) {
             db.close();
         });
     });
+    console.log('update');
+    res.send('<script>\n' +
+        '    window.close();\n' +
+        '</script>')
 };
 
 var submit = function(req, res) {
