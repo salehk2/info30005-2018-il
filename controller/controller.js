@@ -8,14 +8,6 @@ var assert = require('assert');
 var Post = mongoose.model('Post');
 var url = 'mongodb://sak2:sak474@ds014648.mlab.com:14648/illuminate';
 
-// var index = function(req, res, next) {
-//     res.render('index', { title: 'Form Validation', success: req.session.success, errors: req.session.errors });
-//     req.session.errors = null;
-// };
-// mongoose.connect(url, function (err) {
-//     if (!err) console.log('connected to mongo');
-//     else console.log('failed to connect to mongo');
-// });
 
 var viewAll = function(req, res, next) {
     var resultArray = [];
@@ -43,6 +35,7 @@ var createPost = function(req,res){
         db.collection('user-data').insertOne(post, function(err, result) {
             assert.equal(null, err);
             console.log('Item inserted');
+            alert("Posted Successfully!");
             db.close();
         });
     });
@@ -113,7 +106,11 @@ var submit = function(req, res) {
 
 var home = function(req, res) {
     res.render('home');
-}
+};
+
+var pageUnderConstruction = function(req, res) {
+    res.render('coming soon');
+};
 
 module.exports.createPost =  createPost;
 module.exports.viewAll =  viewAll;
@@ -123,3 +120,4 @@ module.exports.removePost = removePost;
 module.exports.edit = edit;
 module.exports.editor = editor;
 module.exports.home = home;
+module.exports.pageUnderConstruction = pageUnderConstruction;
