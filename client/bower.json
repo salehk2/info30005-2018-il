@@ -1,0 +1,23 @@
+{
+  "name": "info30005-2018-il",
+  "homepage": "https://github.com/najimc/info30005-2018-il",
+  "authors": [
+    "Najim"
+  ],
+  "description": "",
+  "main": "app.js",
+  "license": "ISC",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-route": "^1.7.0",
+    "angular": "^1.7.0",
+    "bootstrap": "^4.1.1",
+    "jquery": "^3.3.1"
+  }
+}
