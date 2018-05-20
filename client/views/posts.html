@@ -1,0 +1,20 @@
+<div ng-init="getPosts()">
+  <div class="card-header">
+    <h3 class="card-title">Posts</h3>
+  </div>
+  <div class="card-group">
+    <div class="card" ng-repeat="post in posts">
+      <div class="card-body row">
+        <img class="card-img-top col-md-4" ng-src="{{post.image_url}}" alt="Card image cap">
+        <div class="col-md-8">
+          <h5 class="card-title">{{post.title}}</h5>
+          <p class="card-text">{{post.post_text}}</p>
+        </div>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">{{post.create_date | date:'medium'}}</small>
+        <a class="btn-sm btn-dark float-right" href="/posts/details/{{post._id}}">View Details</a>
+      </div>
+    </div>
+  </div>
+</div>
