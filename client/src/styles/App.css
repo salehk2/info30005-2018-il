@@ -1,0 +1,47 @@
+img {
+  width: 100%;
+}
+
+.navbar {
+  z-index: 1;
+}
+
+.landing {
+  position: relative;
+  background-position: center;
+}
+
+.landing-inner {
+  padding-top: 8em;
+}
+
+.dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.particles {
+  margin-top: -24px;
+  margin-bottom: -50px;
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  background-size: cover;
+}
+
+.card-form {
+  opacity: 0.9;
+}
+
+.latest-profiles-img {
+  width: 40px;
+  height: 40px;
+}
+
+.login .invalid-feedback,
+.register .invalid-feedback,
+.form-control::placeholder {
+  color: #bbb !important;
+}
