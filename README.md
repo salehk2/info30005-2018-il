@@ -2,7 +2,7 @@
 
 Contributers:
 
-[Najim Islam](https://github.com/najimc)\
+[Najim](https://github.com/najimc)\
 [Saleh Ahmed Khan](https://github.com/salehk2)
 
 ## Project Proposal
